@@ -1041,3 +1041,61 @@ a.btn-box:hover{
         font-size: 13px;
     }
 }
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .projects {
+        padding: 20px 15px; /* Add horizontal padding */
+        margin-top: 20px;
+    }
+    
+    .portfolio-content {
+        gap: 30px;
+        width: 100%;
+    }
+    
+    .row {
+        width: 100%;
+        max-width: 350px; /* Limit maximum width */
+        height: 350px; /* Adjust height for mobile */
+        margin: 20px auto; /* Center the projects with automatic margins */
+    }
+    
+    .main-text {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .layer h5 {
+        font-size: 20px;
+    }
+    
+    .layer p {
+        font-size: 16px;
+    }
+    
+    .project-link {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* For very small screens */
+@media only screen and (max-width: 480px) {
+    .row {
+        height: 300px;
+    }
+    
+    .layer {
+        padding: 0 15px;
+        padding-bottom: 30px;
+    }
+    
+    .layer h5 {
+        font-size: 18px;
+    }
+    
+    .layer p {
+        font-size: 14px;
+    }
+}
