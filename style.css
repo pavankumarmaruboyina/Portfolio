@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    scroll-behaviour:smooth;
 }
 body{
     background: linear-gradient(135deg, #000000, #001F3F, #002244, #000A22, #000000);
